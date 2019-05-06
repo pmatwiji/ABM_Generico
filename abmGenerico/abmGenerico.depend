@@ -1,0 +1,135 @@
+# depslib dependency file v1.0
+1556021333 source:c:\users\x__bi\desktop\programacionuno\programacionuno\funciones\abmgenerico\estructurados.c
+
+1556029381 source:c:\users\x__bi\desktop\programacionuno\programacionuno\funciones\abmgenerico\funcionesgenericas.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+
+1556030172 source:c:\users\x__bi\desktop\programacionuno\programacionuno\funciones\abmgenerico\estructurauno.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+
+1556029451 c:\users\x__bi\desktop\programacionuno\programacionuno\funciones\abmgenerico\estructurauno.h
+
+1556024356 c:\users\x__bi\desktop\programacionuno\programacionuno\funciones\abmgenerico\estructurados.h
+
+1556030072 c:\users\x__bi\desktop\programacionuno\programacionuno\funciones\abmgenerico\funcionesgenericas.h
+
+1556030253 source:c:\users\x__bi\desktop\programacionuno\programacionuno\funciones\abmgenerico\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+
+1557177829 source:c:\users\peps\desktop\programacionuno\abmgenerico\estructurados.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+
+1557177634 source:c:\users\peps\desktop\programacionuno\abmgenerico\estructurauno.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+
+1557177597 c:\users\peps\desktop\programacionuno\abmgenerico\estructurauno.h
+
+1557177829 c:\users\peps\desktop\programacionuno\abmgenerico\estructurados.h
+
+1556834472 c:\users\peps\desktop\programacionuno\abmgenerico\funcionesgenericas.h
+
+1557171402 source:c:\users\peps\desktop\programacionuno\abmgenerico\funcionesgenericas.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+
+1557177645 source:c:\users\peps\desktop\programacionuno\abmgenerico\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+
+1557100350 c:\users\peps\desktop\programacionuno\abmgenerico\menu.h
+
+1557171402 source:c:\users\peps\desktop\programacionuno\abmgenerico\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+
+1557105513 c:\users\peps\desktop\programacionuno\abmgenerico\hardcode.h
+
+1557171402 source:c:\users\peps\desktop\programacionuno\abmgenerico\hardcode.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+
+1557173213 c:\users\peps\desktop\programacionuno\abmgenerico\validaciones.h
+
+1557173070 source:c:\users\peps\desktop\programacionuno\abmgenerico\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+	"validaciones.h"
+
