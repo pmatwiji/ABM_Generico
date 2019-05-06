@@ -3,13 +3,12 @@
 #include <conio.h>
 #include <string.h>
 #include <ctype.h>
-#include "estructuraUno.h"
 #include "estructuraDos.h"
+#include "estructuraUno.h"
 #include "funcionesGenericas.h"
 #include "menu.h"
 #include "hardcode.h"
 #include "validaciones.h"
-
 
 int inicializarEstadoCosasUno (sCosasUno* arrayCosasUno, int capacidad)
 {
@@ -133,40 +132,27 @@ int agregarDato(sCosasUno* arrayCosasUno, int capacidad)
     return retorno;
 }
 
-//void mostrarCosa (sCosasUno unaCosa, sCosasDos arrayCosasDos[], int cantidad)
-//{
-//    char relacion[20];
-//    int i;
-//
-//    for(i=0;i<cantidad;i++)
-//    {
-//        if(unaCosa.datoInt==arrayCosasDos[i].id)
-//        {
-//            strcpy(relacion, arrayCosasDos[i].datoString);
-//            break;
-//        }
-//    }
-//
-//    printf(" %3d | %25s |  %10s  | %1c | %.2f               \n", unaCosa.id, unaCosa.datoString, relacion, unaCosa.datoChar, unaCosa.datoFloat);
-//}
 
-
-void mostrarListaCosas(sCosasUno* arrayCosasUno, int cantidad)
+void mostrarListaCosas(sCosasUno* listaCosas, int cantidadCosasUno, sCosasDos* listaCosasDos, int cantidadCosasDos)
 {
     int i;
+    int j;
+    char relacion[20];
     printf("=====================================================================\n"
            "||                              Listado:                           ||\n"
            "=====================================================================\n");
-    for(i=0; i<cantidad; i++)
+    for(i=0; i<cantidadCosasUno; i++)
     {
-        if(arrayCosasUno[i].datoOcupado == OCUPADO)
+        if(listaCosas[i].datoOcupado == OCUPADO)
         {
-//            mostrarCosa(listaCosasUno[i],listaCosasDos, largo);
-//            if(arrayCosasUno[i].datoInt == arrayCosasDos[i].id)
-//            {
-//                strcpy(relacion, arrayCosasDos[i].datoString);
-//            }
-            printf(" %3d | %25s | %4d  | %1c | %.2f               \n", arrayCosasUno[i].id, arrayCosasUno[i].datoString, arrayCosasUno[i].datoInt, arrayCosasUno[i].datoChar, arrayCosasUno[i].datoFloat);
+            for(j=0;j<cantidadCosasDos; j++)
+            {
+                if(listaCosas[i].datoInt == listaCosasDos[j].id)
+                {
+                    strcpy(relacion, listaCosasDos[j].datoString);
+                }
+            }
+            printf(" %3d | %25s | %4d %s  | %1c | %.2f               \n", listaCosas[i].id, listaCosas[i].datoString, listaCosas[i].datoInt, relacion, listaCosas[i].datoChar, listaCosas[i].datoFloat);
         }
 
 

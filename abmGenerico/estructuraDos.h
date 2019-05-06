@@ -1,3 +1,7 @@
+#ifndef ESTRUCTURADOS_H_INCLUDED
+#define ESTRUCTURADOS_H_INCLUDED
+
+
 typedef struct
 {
     int id;
@@ -8,6 +12,7 @@ typedef struct
     int datoOcupado;
 } sCosasDos;
 
+
 int inicializarEstadoCosasDos(sCosasDos* arrayCosasDos, int capacidad);
 int buscarLibreDos(sCosasDos* arrayCosasDos, int capacidad);
 int datoCargadoDos(sCosasDos* arrayCosasDos, int capacidad);
@@ -17,4 +22,4 @@ void mostrarListaCosasDos(sCosasDos* arrayCosasDos, int cantidad);
 int eliminarCosaDos(sCosasDos* arrayCosasDos, int capacidad);
 void modificarCosaDos(sCosasDos* arrayCosasDos, int capacidad);
 
-
+#endif // ESTRUCTURADOS_H_INCLUDED

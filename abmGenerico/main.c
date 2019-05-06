@@ -64,7 +64,7 @@ int main()
                 case 1:
                     if (flagUno == 0)
                     {
-                        mostrarListaCosas(arrayCosasUno, LIMITE);
+                        mostrarListaCosas(arrayCosasUno,LIMITE,arrayCosasDos,LIMITE);
                     }
                     else
                     {
@@ -101,7 +101,7 @@ int main()
                 case 1:
                     if (flagUno == 0)
                     {
-                        mostrarListaCosas(arrayCosasUno, LIMITE);
+                        //mostrarListaCosas(arrayCosasUno, LIMITE);
                         eliminarCosa(arrayCosasUno, LIMITE);
                     }
                     else
@@ -140,7 +140,7 @@ int main()
                 case 1:
                     if (flagUno == 0)
                     {
-                        mostrarListaCosas(arrayCosasUno, LIMITE);
+                        //mostrarListaCosas(arrayCosasUno, LIMITE);
                         modificarCosa(arrayCosasUno, LIMITE);
                         do
                         {
@@ -208,8 +208,8 @@ int main()
             system("cls");
             break;
         case 777:
-            hardcodeUno(arrayCosasUno, LIMITE, 1, 1, "caca", 'c', 5 , 0);
-            hardcodeUno(arrayCosasUno, LIMITE, 2, 3, "pis", 's', 3 , 0);
+            hardcodeUno(arrayCosasUno, LIMITE, 1, 2, "caca", 'c', 5 , 0);
+            hardcodeUno(arrayCosasUno, LIMITE, 2, 1, "pis", 's', 3 , 0);
             hardcodeDos(arrayCosasDos, LIMITE, 1, 2, "hola", 'h', 7, 0);
             hardcodeDos(arrayCosasDos, LIMITE, 2, 8, "chau", 'c', 10, 0);
             system("cls");
