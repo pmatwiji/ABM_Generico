@@ -34,7 +34,7 @@
 	"estructuraDos.h"
 	"funcionesGenericas.h"
 
-1557177829 source:c:\users\peps\desktop\programacionuno\abmgenerico\estructurados.c
+1557199641 source:c:\users\peps\desktop\programacionuno\abmgenerico\estructurados.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
@@ -47,7 +47,7 @@
 	"hardcode.h"
 	"validaciones.h"
 
-1557183895 source:c:\users\peps\desktop\programacionuno\abmgenerico\estructurauno.c
+1557199501 source:c:\users\peps\desktop\programacionuno\abmgenerico\estructurauno.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
@@ -75,7 +75,7 @@
 	<ctype.h>
 	"validaciones.h"
 
-1557183005 source:c:\users\peps\desktop\programacionuno\abmgenerico\main.c
+1557199294 source:c:\users\peps\desktop\programacionuno\abmgenerico\main.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>

@@ -101,7 +101,7 @@ int main()
                 case 1:
                     if (flagUno == 0)
                     {
-                        //mostrarListaCosas(arrayCosasUno, LIMITE);
+                        mostrarListaCosas(arrayCosasUno,LIMITE,arrayCosasDos,LIMITE);
                         eliminarCosa(arrayCosasUno, LIMITE);
                     }
                     else
@@ -140,7 +140,7 @@ int main()
                 case 1:
                     if (flagUno == 0)
                     {
-                        //mostrarListaCosas(arrayCosasUno, LIMITE);
+                        mostrarListaCosas(arrayCosasUno,LIMITE,arrayCosasDos,LIMITE);
                         modificarCosa(arrayCosasUno, LIMITE);
                         do
                         {

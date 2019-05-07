@@ -207,6 +207,8 @@ void modificarCosa(sCosasUno* arrayCosasUno, int capacidad)
     int auxId;
     int opcion;
     char confirmacion;
+    char buffer[50];
+    int i;
 
 
     auxId = getInt("Ingrese el ID a buscar: ");
@@ -218,8 +220,7 @@ void modificarCosa(sCosasUno* arrayCosasUno, int capacidad)
         switch(opcion)
         {
         case 1:
-            auxInt = getInt("Ingrese el nuevo entero: ");
-
+            auxInt = getValidInt("Ingrese el dato entero: ", "Solamente puede ingresar numeros.", 0, 10);
             do
             {
                 confirmacion = getChar("Confirma la modificacion? S/N ");
@@ -240,7 +241,22 @@ void modificarCosa(sCosasUno* arrayCosasUno, int capacidad)
             while (confirmacion != 'n' && confirmacion != 's');
             break;
         case 2:
-            getString("Ingrese el string: ", auxString);
+            getString("Ingrese el dato String: ", buffer);
+            while(strlen(buffer)>50)
+            {
+                getString("El string es demasiado largo, ingreselo nuevamente: ", buffer);
+            }
+            strcpy(auxString, buffer);
+            strcpy(strlwr(auxString), auxString);
+            auxString[0]=toupper(auxString[0]);
+            for(i=0;i < strlen(auxString); i++)
+            {
+                if(auxString[i] == ' ')
+                {
+                    auxString[i+1]=toupper(auxString[i+1]);
+                }
+            }
+            strcpy(arrayCosasUno[idCosa].datoString, auxString);
             do
             {
                 confirmacion = getChar("Confirma la modificacion? ");
@@ -282,7 +298,7 @@ void modificarCosa(sCosasUno* arrayCosasUno, int capacidad)
             while (confirmacion != 'n' && confirmacion != 's');
             break;
         case 4:
-            auxFloat = getFloat("Ingrese el float: ");
+            auxFloat = getValidFloat("Ingrese el dato float: ", "Solamente puede ingresar numeros", 0, 100);
             do
             {
                 confirmacion = getChar("Confirma la modificacion? ");
